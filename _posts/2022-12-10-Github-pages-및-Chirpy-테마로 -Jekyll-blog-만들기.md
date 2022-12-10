@@ -9,9 +9,9 @@ render_with_liquid: false
 
 # Jekyll Chirpy 테마로 TIL 블로그 제작하기
 
-본 포스팅은 ==MAC 환경==에서 ==Jekyll Chirpy 테마==를 사용하여 ==Github pages로 호스팅== 되는 블로그를 개설하는 것에 대해 다루고 있습니다.
+본 포스팅은 MAC 환경에서 Jekyll Chirpy 테마를 사용하여 Github pages로 호스팅 되는 블로그를 개설하는 것에 대해 다루고 있습니다.
 
-로컬 편집 툴은 ==VScode를 사용==했으며, 위 조건이 다른 경우 설치 방법이 달라질 수 있습니다.
+로컬 편집 툴은 VScode를 사용했으며, 위 조건이 다른 경우 설치 방법이 달라질 수 있습니다.
 
 ## 사전 준비 사항
 
@@ -19,53 +19,59 @@ render_with_liquid: false
 
 ### 1) 미리 설치할 것
 
-[Jekyll Docs](https://jekyllrb.com/docs/installation/) 및 [The fastest and easiest way to install Ruby on a Mac in 2022](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/) 페이지를 참고하여 아래의 필요 사항을 설치해두어야 합니다.
+[Jekyll Docs](https://jekyllrb.com/docs/installation/){:target="\_blank"} 및 [The fastest and easiest way to install Ruby on a Mac in 2022](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/){:target="\_blank"} 페이지를 참고하여 아래의 필요 사항을 설치해두어야 합니다.
 
 대부분의 경우 아래 커맨드를 터미널에 순서대로 입력한다면 이상 없이 설치 될 것입니다.
 
 - `Homebrew` 설치:
-  ```Terminal
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  ```
+
+```Terminal
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 - `Chruby` 및 `Ruby-install` 설치:
 
-  ```Terminal
-  brew install chruby ruby-install xz
-  ```
+```Terminal
+brew install chruby ruby-install xz
+```
 
 - `Ruby` 및 `RubyGems` 설치:
 
-  ```Terminal
-  ruby-install ruby
-  ```
+```Terminal
+ruby-install ruby
+```
 
-  `RubyGems`는 `Ruby`와 함께 설치된다. (info prompt 적용할 것)
+> `RubyGems`는 `Ruby`와 함께 설치된다. (info prompt 적용할 것)
 
 - `Ruby` 설치 확인:
-  ```Terminal
-  ruby --v
-  ```
+
+```Terminal
+ruby --v
+```
+
 - `Jekyll` 설치:
-  ```Terminal
-  gem install jekyll
-  ```
+
+```Terminal
+gem install jekyll
+```
+
 - `Bundler` 설치:
 
-  ```Terminal
-  gem install bundler
-  ```
+```Terminal
+gem install bundler
+```
 
 - `Git` 설치:
 
-  ```Terminal
-  brew install git
-  ```
+```Terminal
+brew install git
+```
 
-  - VScode
+- VScode
 
-  ```Terminal
-  brew install --cask visual-studio-code
-  ```
+```Terminal
+brew install --cask visual-studio-code
+```
 
 ### 2) 진행 절차 미리보기
 
