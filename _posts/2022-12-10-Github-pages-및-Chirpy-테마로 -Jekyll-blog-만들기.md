@@ -24,64 +24,40 @@ render_with_liquid: false
 대부분의 경우 아래 커맨드를 터미널에 순서대로 입력한다면 이상 없이 설치 될 것입니다.
 
 - `Homebrew` 설치:
-
-```Terminal
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 - `Chruby` 및 `Ruby-install` 설치:
-
-```Terminal
-brew install chruby ruby-install xz
-```
+  brew install chruby ruby-install xz
 
 - `Ruby` 및 `RubyGems` 설치:
+  ruby-install ruby
 
-```Terminal
-ruby-install ruby
-```
-
-> `RubyGems`는 `Ruby`와 함께 설치된다. (info prompt 적용할 것)
+> `RubyGems`는 `Ruby`와 함께 설치된다. {: .prompt-info}
 
 - `Ruby` 설치 확인:
-
-```Terminal
-ruby --v
-```
+  ruby --v
 
 - `Jekyll` 설치:
-
-```Terminal
-gem install jekyll
-```
+  gem install jekyll
 
 - `Bundler` 설치:
-
-```Terminal
-gem install bundler
-```
+  gem install bundler
 
 - `Git` 설치:
-
-```Terminal
-brew install git
-```
+  brew install git
 
 - VScode
-
-```Terminal
-brew install --cask visual-studio-code
-```
+  brew install --cask visual-studio-code
 
 ### 2) 진행 절차 미리보기
 
-    (1) Chirpy Repository Fork 하기
-    (2) Local 환경으로 Clone 하기
-    (3) Local 환경에서 Test 하기
-    (4) 원격 저장소로 Local 변경사항 push 하기
-    (5) Github pages 배포 확인하기
+(1) Chirpy Repository Fork 하기
+(2) Local 환경으로 Clone 하기
+(3) Local 환경에서 Test 하기
+(4) 원격 저장소로 Local 변경사항 push 하기
+(5) Github pages 배포 확인하기
 
-> 앞으로 어떤 절차가 예정되어 있는지 미리 알고있으면 예상치 못하게 절차가 꼬이는 문제를 예방할 수 있다. (tip prompt 적용할 것)
+> 앞으로 어떤 절차가 예정되어 있는지 미리 알고있으면 예상치 못하게 절차가 꼬이는 문제를 예방할 수 있다. {: .prompt-tip}
 
 ## Chirpy 테마로 Jekyll 블로그 설치
 
