@@ -5,7 +5,7 @@ date: 2022-12-10 22:55:00 +0900
 categories: [Blogging, jekyll]
 tags: [TIL, chirpy, theme]
 render_with_liquid: false
-img_path: /assets/posting/Github pages 및 Chirpy 테마로 Jekyll blog 만들기/
+img_path: ../assets/posting/Github pages 및 Chirpy 테마로 Jekyll blog 만들기
 ---
 
 # Jekyll Chirpy 테마로 TIL 블로그 제작하기
@@ -98,7 +98,6 @@ brew install --cask visual-studio-code
 저장소 우측 상단의 `Fork > Create a new fork` 클릭 해줍시다.
 
 ![Fork chirpy repo](1.png)
-<img src="https://drive.google.com/file/d/1ss80UfSDgC41iHzvQXsLl66jf2jyehDC/view?usp=share_link">
 
 Repository name을 `<Github username>.github.io`로 변경후 Fork 완료 해줍니다.
 
