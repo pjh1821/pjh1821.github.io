@@ -106,7 +106,7 @@ Repository name을 `<Github username>.github.io`로 변경후 Fork 완료 해줍
 > 3.  저장소의 이름은 추후 Setting에서 언제든지 변경할 수 있습니다. 
 {: .prompt-info}
 
-![Fork chirpy repo](2.png)
+![Fork chirpy repo](/assets/posting/Github%20pages%20%EB%B0%8F%20Chirpy%20%ED%85%8C%EB%A7%88%EB%A1%9C%20Jekyll%20blog%20%EB%A7%8C%EB%93%A4%EA%B8%B0/2.png)
 
 ### Stetp 2. Local 환경으로 Clone 하기
 
@@ -116,7 +116,7 @@ VScode로 소스코드를 편리하게 편집하기 위해서 원격 저장소�
 
 Fork 해온 저장소에서 `Code > REPO_URL` 복사해줍니다.
 
-![Copy repo URL](3.png)
+![Copy repo URL](/assets/posting/Github%20pages%20%EB%B0%8F%20Chirpy%20%ED%85%8C%EB%A7%88%EB%A1%9C%20Jekyll%20blog%20%EB%A7%8C%EB%93%A4%EA%B8%B0/3.png)
 
 터미널에 아래의 명령어를 입력하면 Clone을 실행할 수 있습니다.
 `<REPO_URL>` 위치에 <u>위의 이미지에서 복사한 URL</u>을, `<DIR>` 위치에 <u>원하는 작업 위치</u>를 입력합니다.
@@ -162,7 +162,7 @@ jekyll serve
 아래와 같이 출력된다면 정상 동작 되고 있는 것입니다.
 표시된 IP 주소를 웹 브라우저에 입력하면 생성된 블로그를 확인 할 수 있습니다.
 
-![Local test](4.png)
+![Local test](/assets/posting/Github%20pages%20%EB%B0%8F%20Chirpy%20%ED%85%8C%EB%A7%88%EB%A1%9C%20Jekyll%20blog%20%EB%A7%8C%EB%93%A4%EA%B8%B0/4.png)
 
 ### Stetp 5. Local 변경사항 Github 저장소로 PUSH 하기
 
@@ -185,7 +185,7 @@ git push origin master
 원격 저장소로 변경사항 업로드가 완료되었다면 잠시 후 pages를 통해서 확인 가능합니다.
 `<username>.github.io` 를 웹 브라우저에 입력 후 제대로 출력되는지 확인할 수 있습니다.
 
-![Check deployment](5.png)
+![Check deployment](/assets/posting/Github%20pages%20%EB%B0%8F%20Chirpy%20%ED%85%8C%EB%A7%88%EB%A1%9C%20Jekyll%20blog%20%EB%A7%8C%EB%93%A4%EA%B8%B0/5.png)
 
 위의 이미지와 같이 텅빈 페이지가 출력되었나요? 축하합니다.  
 Jekyll Chirpy 테마 및 Github pages를 활용하여 블로그 생성이 완료되었습니다.
