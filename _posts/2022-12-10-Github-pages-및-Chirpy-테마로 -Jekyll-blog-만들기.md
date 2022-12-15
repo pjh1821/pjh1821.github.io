@@ -98,6 +98,7 @@ brew install --cask visual-studio-code
 저장소 우측 상단의 `Fork > Create a new fork` 클릭 해줍시다.
 
 ![Fork chirpy repo](1.png)
+<img src="https://drive.google.com/file/d/1ss80UfSDgC41iHzvQXsLl66jf2jyehDC/view?usp=share_link">
 
 Repository name을 `<Github username>.github.io`로 변경후 Fork 완료 해줍니다.
 
