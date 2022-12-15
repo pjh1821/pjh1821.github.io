@@ -97,7 +97,7 @@ brew install --cask visual-studio-code
 [Chirpy theme Github Repo](https://github.com/cotes2020/jekyll-theme-chirpy)에서 내 원격 저장소로 Chirpy 테마 파일을 복사해서 가져옵니다.
 저장소 우측 상단의 `Fork > Create a new fork` 클릭 해줍시다.
 
-![Fork chirpy repo](/1.png)
+![Fork chirpy repo](/assets/posting/Github%20pages%20%EB%B0%8F%20Chirpy%20%ED%85%8C%EB%A7%88%EB%A1%9C%20Jekyll%20blog%20%EB%A7%8C%EB%93%A4%EA%B8%B0/1.png)
 
 Repository name을 `<Github username>.github.io`로 변경후 Fork 완료 해줍니다.
 
