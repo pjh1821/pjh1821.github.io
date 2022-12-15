@@ -5,6 +5,7 @@ date: 2022-12-10 22:55:00 +0900
 categories: [Blogging, jekyll]
 tags: [TIL, chirpy, theme]
 render_with_liquid: false
+img_path: /assets/Github pages 및 Chirpy 테마로 Jekyll blog 만들기/
 ---
 
 # Jekyll Chirpy 테마로 TIL 블로그 제작하기
@@ -42,7 +43,7 @@ ruby-install ruby
 ```
 
 <!-- prettier-ignore -->
-> `RubyGems`는 `Ruby`와 함께 설치된다. 
+> RubyGems는 Ruby와 함께 설치된다. 
 {: .prompt-info}
 
 - `Ruby` 설치 확인:
@@ -77,11 +78,11 @@ brew install --cask visual-studio-code
 
 ### 2) 진행 절차 미리보기
 
-(1) Chirpy Repository Fork 하기
-(2) Local 환경으로 Clone 하기
-(3) Local 환경에서 Test 하기
-(4) 원격 저장소로 Local 변경사항 push 하기
-(5) Github pages 배포 확인하기
+1. Chirpy Repository Fork 하기
+2. Local 환경으로 Clone 하기
+3. Local 환경에서 Test 하기
+4. 원격 저장소로 Local 변경사항 push 하기
+5. Github pages 배포 확인하기
 
 <!-- prettier-ignore -->
 > 앞으로 어떤 절차가 예정되어 있는지 미리 알고있으면 예상치 못하게 절차가 꼬이는 문제를 예방할 수 있다.
@@ -96,7 +97,7 @@ brew install --cask visual-studio-code
 [Chirpy theme Github Repo](https://github.com/cotes2020/jekyll-theme-chirpy)에서 내 원격 저장소로 Chirpy 테마 파일을 복사해서 가져옵니다.
 저장소 우측 상단의 `Fork > Create a new fork` 클릭 해줍시다.
 
-![[Pasted image 20221118082949.png]]
+![Fork chirpy repo](1.png)
 
 Repository name을 `<Github username>.github.io`로 변경후 Fork 완료 해줍니다.
 
@@ -106,7 +107,7 @@ Repository name을 `<Github username>.github.io`로 변경후 Fork 완료 해줍
 > 3.  저장소의 이름은 추후 Setting에서 언제든지 변경할 수 있습니다. 
 {: .prompt-info}
 
-![[Pasted image 20221117160828.png]]
+![Fork chirpy repo](2.png)
 
 ### Stetp 2. Local 환경으로 Clone 하기
 
@@ -116,7 +117,7 @@ VScode로 소스코드를 편리하게 편집하기 위해서 원격 저장소�
 
 Fork 해온 저장소에서 `Code > REPO_URL` 복사해줍니다.
 
-![[Pasted image 20221117161032.png]]
+![Copy repo URL](3.png)
 
 터미널에 아래의 명령어를 입력하면 Clone을 실행할 수 있습니다.
 `<REPO_URL>` 위치에 <u>위의 이미지에서 복사한 URL</u>을, `<DIR>` 위치에 <u>원하는 작업 위치</u>를 입력합니다.
@@ -162,7 +163,7 @@ jekyll serve
 아래와 같이 출력된다면 정상 동작 되고 있는 것입니다.
 표시된 IP 주소를 웹 브라우저에 입력하면 생성된 블로그를 확인 할 수 있습니다.
 
-![[Screen Shot 2022-11-19 at 11.16.37 PM.png]]
+![Local test](4.png)
 
 ### Stetp 5. Local 변경사항 Github 저장소로 PUSH 하기
 
@@ -185,7 +186,7 @@ git push origin master
 원격 저장소로 변경사항 업로드가 완료되었다면 잠시 후 pages를 통해서 확인 가능합니다.
 `<username>.github.io` 를 웹 브라우저에 입력 후 제대로 출력되는지 확인할 수 있습니다.
 
-![[Pasted image 20221207152449.png]]
+![Check deployment](5.png)
 
 위의 이미지와 같이 텅빈 페이지가 출력되었나요? 축하합니다.  
 Jekyll Chirpy 테마 및 Github pages를 활용하여 블로그 생성이 완료되었습니다.
