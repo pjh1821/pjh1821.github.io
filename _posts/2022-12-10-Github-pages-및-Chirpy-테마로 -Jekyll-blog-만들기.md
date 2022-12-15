@@ -5,7 +5,7 @@ date: 2022-12-10 22:55:00 +0900
 categories: [Blogging, jekyll]
 tags: [TIL, chirpy, theme]
 render_with_liquid: false
-img_path: /assets/Github pages 및 Chirpy 테마로 Jekyll blog 만들기/
+img_path: /assets/posting/Github pages 및 Chirpy 테마로 Jekyll blog 만들기/
 ---
 
 # Jekyll Chirpy 테마로 TIL 블로그 제작하기
