@@ -121,7 +121,7 @@ Fork 해온 저장소에서 `Code > REPO_URL` 복사해줍니다.
 터미널에 아래의 명령어를 입력하면 Clone을 실행할 수 있습니다.
 `<REPO_URL>` 위치에 <u>위의 이미지에서 복사한 URL</u>을, `<DIR>` 위치에 <u>원하는 작업 위치</u>를 입력합니다.
 
-```
+```terminal
 git clone <REPO_URL> <DIR>
 ```
 
@@ -139,13 +139,13 @@ ex) 변수 예시
 Clone 받은 소스코드 Root 위치에서 터미널에 아래 커맨드를 입력하면 몇가지 파일이 삭제됩니다.
 제작자가 DEMO로 넣어둔 내용 등을 삭제해서 바로 사용할 수 있도록 하는 명령어인 것 같습니다.
 
-```
+```terminal
 bash tools/init.sh
 ```
 
 이상태에서 일단 한번 커밋해줍니다.
 
-```
+```terminal
 git add .
 git commit -m "Create TIL blog powered by jekyll Chirpy theme"
 ```
@@ -154,7 +154,7 @@ git commit -m "Create TIL blog powered by jekyll Chirpy theme"
 
 변경된 Local 파일이 서버에서 제대로 구동되는지 확인하기 위해서 아래의 명령어를 실행해줍니다.
 
-```
+```terminal
 bundle
 jekyll serve
 ```
@@ -168,7 +168,7 @@ jekyll serve
 
 로컬에서 문제없이 잘 동작하는 것을 확인했으니 원격 저장소로 변경사항을 업로드 합니다.
 
-```
+```terminal
 git push origin master
 ```
 
